@@ -24,8 +24,7 @@ The sample_submission is just an example of the format our submission should be 
 
 Along with these 4 files, I have added a train_mod file and test_mod file which is a combined and cleaned version of the original train and test files. They both combine the original store file with the train and test files for a more complete training and testing set. They both also contain new features that were engineered from the other features for ease of use.
 
-The rossmann_models file contains the jupyter notebook that I used to build the models in. I tested out a linear regression and random forest model for this problem and went with the random forest model in the end as it gave the best results. I will not be uploading the model itself as it is over 7 GB which is too large to upload.
-The submissions are evaluated on the Root Mean Square Percentage Error (RMSPE) which is defined as:
+The rossmann_models file contains the jupyter notebook that I used to build the models in. I tested out a linear regression and random forest model for this problem and went with the random forest model in the end as it gave the best results. The submissions are evaluated on the Root Mean Square Percentage Error (RMSPE) which is defined as:
 
 ![RMSPE](rmspe.png)
  
