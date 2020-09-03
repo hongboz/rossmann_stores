@@ -1,10 +1,12 @@
 # rossmann_stores
 
-Introduction:
+## Introduction:
 
 This project is based on the 2015 Rossmann Store Sales Kaggle competition, where participants are asked to create a predictive model that forecasts the daily sales of Rossmann stores. Along with the predictive model, I have also created data visualizations and conducted some statistical tests to provide more insights into the data.
 
 All of the details of the competition and original data files can be found at: https://www.kaggle.com/c/rossmann-store-sales/overview
+
+## Problem Outline:
 
 Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Rossmann store managers are tasked with predicting their daily sales for up to six weeks in advance. Store sales are influenced by many factors, including promotions, competition, school and state holidays, seasonality, and locality. With thousands of individual managers predicting sales based on their unique circumstances, the accuracy of results can be quite varied.
 
@@ -18,7 +20,7 @@ The test file is our testing set, it contains all the same information as the tr
 
 The sample_submission is just an example of the format our submission should be in.
 
-Predictive Modeling:
+## Predictive Modeling:
 
 Along with these 4 files, I have added a train_mod file and test_mod file which is a combined and cleaned version of the original train and test files. They both combine the original store file with the train and test files for a more complete training and testing set. They both also contain new features that were engineered from the other features for ease of use.
 
@@ -28,13 +30,16 @@ The submissions are evaluated on the Root Mean Square Percentage Error (RMSPE) w
 ![RMSPE](rmspe.png)
  
 The submission predicted by the model I created was able to achieve a RMSPE score of 0.227 (the closer to 0, the better the score).
- 
+ ![score](score.png)
 
-Data Analysis:
+## Data Analysis:
 
 Along with the predictive model, I have also created data visualizations with Excel in the file charts_and_tables, completed some statistical tests with python in the file statistical_tests. I have put the summary and conclusions of the findings in the file Rossmann Analysis Report.
 
 Ex.
  
+![sales](sales.png)
 
+## Future Improvements:
 
+Test more models, use different features, engineering more features, reduce training set size to speed up training as my current gridsearch was taking over 2 hours.
