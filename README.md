@@ -24,6 +24,8 @@ Along with these 4 files, I have added a train_mod file and test_mod file which 
 
 The rossmann_models file contains the jupyter notebook that I used to build the models in. I tested out a linear regression and random forest model for this problem and went with the random forest model in the end as it gave the best results. I will not be uploading the model itself as it is over 7 GB which is too large to upload.
 The submissions are evaluated on the Root Mean Square Percentage Error (RMSPE) which is defined as:
+
+![RMSPE](rmspe.png)
  
 The submission predicted by the model I created was able to achieve a RMSPE score of 0.227 (the closer to 0, the better the score).
  
