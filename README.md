@@ -1,5 +1,8 @@
 # rossmann_stores
 
+### NOTE:
+The charts_and_tables, train and train_mod files were too big to upload to GitHub
+
 ## Introduction:
 
 This project is based on the 2015 Rossmann Store Sales Kaggle competition, where participants are asked to create a predictive model that forecasts the daily sales of Rossmann stores. Along with the predictive model, I have also created data visualizations and conducted some statistical tests to provide more insights into the data.
